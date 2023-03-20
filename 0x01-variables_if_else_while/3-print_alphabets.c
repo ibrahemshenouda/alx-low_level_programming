@@ -13,6 +13,12 @@ int main(void)
 	{
 		putchar(x++);
 	}
+	int y = 65;
+
+	while (y < 91)
+	{
+		putchar(y++);
+	}
 	printf("\n");
 	return (0);
 }
