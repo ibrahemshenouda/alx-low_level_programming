@@ -7,16 +7,14 @@
  */
 int main(void)
 {
-	int x = 97, y = 65;
+	int x = 97;
 
 	while (x < 123)
 	{
-		putchar(x++);
-	}
-
-	while (y < 91)
-	{
-		putchar(y++);
+		if (x != 113 && x != 101)
+		{
+			putchar(x++);
+		}
 	}
 	printf("\n");
 	return (0);
