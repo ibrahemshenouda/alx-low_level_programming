@@ -13,8 +13,9 @@ int main(void)
 	{
 		if (x != 113 && x != 101)
 		{
-			putchar(x++);
+			putchar(x);
 		}
+		x++;
 	}
 	printf("\n");
 	return (0);
