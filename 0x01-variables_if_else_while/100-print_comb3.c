@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i = 48, j;
+	int i, j;
 
-	for (i; i < 58; i++)
+	for (i = 48; i < 58; i++)
 	{
 		for (j = i + 1; j < 58; j++)
 		{
