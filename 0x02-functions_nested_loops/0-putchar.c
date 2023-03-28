@@ -1,6 +1,5 @@
 #include "main.h"
 
-void print(void);
 /**
  * main - Entry point
  *
